@@ -45,7 +45,7 @@ class SuspensionUtil {
       String tempTag;
       for (int i = 0, length = list.length; i < length; i++) {
         String tag = list[i].getSuspensionTag();
-        if (tag.length > 2) tag = tag.substring(0, 2);
+        if (tag.length > 3) tag = tag.substring(0, 3);
         if (tempTag != tag) {
           indexData.add(tag);
           tempTag = tag;
